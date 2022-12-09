@@ -54,14 +54,14 @@ hpdf <- rbind(as.data.frame(hp1) %>% dplyr::rename(text = hp1) %>% dplyr::mutate
 ##Sentiment and Tokenizing ----
 hp_sent <- hpdf %>%
   sentimentr::get_sentences(hpdf) %>%
-  IRSA_sentiment(colname = "text",
+  IRSA_sentiment(colname = "text", #this is an internal helper function we've created to sentiment score text within our IRSA department.  Contact me with questions
                  by = c("chpt","book")) %>%
   dplyr::mutate(doc_id = paste(book,chpt,
                                sep = "-"))
 
 #old tokenization function. using pos tagging instead
 # hp_token <- hpdf %>%
-#   IRSA_tokenize(colname = "text") %>%
+#   IRSA_tokenize(colname = "text") %>% # this is another internal helper function for tokenizing. Contact me with questions
 #   dplyr::select(-text) %>%
 #   left_join(hp_sent %>% dplyr::select(word_count,ave_sentiment,doc_id),
 #             by = "doc_id")
