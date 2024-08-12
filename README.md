@@ -4,7 +4,7 @@
 
 While the group is mainly focused on delivering our projects in Tableau, I consider the group to be tool-agnostic. All types of analyses are welcome!
 
-If you're interested in joining, email me at [geopkoch@gmail.com](mailto:geopkoch@gmail.com). If you've already participated, make sure to submit your entry [HERE](https://forms.gle/6CqjyZMN3VMdoQwG6).
+If you're interested in joining, email me at [pickyourpassionpyp@gmail.com](mailto:pickyourpassionpyp@gmail.com). If you've already participated, make sure to submit your entry [HERE](https://forms.gle/6CqjyZMN3VMdoQwG6).
 
 ![PYP Logo](https://github.com/geopkoch/pick_your_passion/blob/main/PYP%20Logo.png)
 
